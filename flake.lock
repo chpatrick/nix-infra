@@ -59,6 +59,29 @@
         "type": "github"
       }
     },
+    "fast-nix-gc": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "treefmt-nix": [
+          "treefmt-nix"
+        ]
+      },
+      "locked": {
+        "lastModified": 1779458499,
+        "narHash": "sha256-FGnouFxWh5ruEKhyY370BHBO986QaPxuugj0f2vCvcs=",
+        "owner": "Mic92",
+        "repo": "fast-nix-gc",
+        "rev": "b987f0a2ef1c34c68a02943be912212a2130d10e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Mic92",
+        "repo": "fast-nix-gc",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "locked": {
         "lastModified": 1767039857,
@@ -430,6 +453,7 @@
         "buildbot-nix": "buildbot-nix",
         "disko": "disko",
         "empty": "empty",
+        "fast-nix-gc": "fast-nix-gc",
         "flake-compat": "flake-compat",
         "flake-parts": "flake-parts",
         "freebsd-nix": "freebsd-nix",
